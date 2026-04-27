@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father Figure Nutrition - Premium Supplements for Busy Professionals</title>
+    <meta name="description" content="Transform from Dad Bod to Father Figure with our premium supplements designed for busy professionals.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-orange': '#f97316',
+                        'brand-dark': '#111827'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Sticky Header -->
+    <header class="sticky top-0 bg-black/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <h1 class="text-2xl font-bold text-brand-orange">Father Figure Nutrition</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#shop" class="hover:text-brand-orange transition-colors">Shop</a>
+                <a href="#about" class="hover:text-brand-orange transition-colors">About</a>
+                <a href="#bundle" class="hover:text-brand-orange transition-colors">Bundles</a>
+                <a href="#contact" class="hover:text-brand-orange transition-colors">Contact</a>
+            </nav>
+            <button id="mobile-menu-btn" class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black/95 border-t border-gray-800">
+            <nav class="px-6 py-4 space-y-4">
+                <a href="#shop" class="block hover:text-brand-orange transition-colors">Shop</a>
+                <a href="#about" class="block hover:text-brand-orange transition-colors">About</a>
+                <a href="#bundle" class="block hover:text-brand-orange transition-colors">Bundles</a>
+                <a href="#contact" class="block hover:text-brand-orange transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-24 px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-black">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                From Dad Bod to Father Figure
+            </h2>
+            <p class="
